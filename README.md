@@ -57,6 +57,14 @@ Sample Input: `"Swift is the best language"`
 
 Sample Output: `"language best the is Swift"`
 
+I was able to find the way to reverse it but I am still unable to translate it into a way that it comes out the same way that we had showed in class. 
+
+var wordsReversed = "Swift is the best language"
+print(wordsReversed);
+var reversedWords = String(wordsReversed.reversed());
+print(reversedWords)
+
+
 
 ## Question 4
 
