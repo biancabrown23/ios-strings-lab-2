@@ -31,7 +31,11 @@ on
 separate
 lines
 ```
+var problem = "split this string into words and print them on separate lines"
 
+for b in problem.components(separatedBy: " ") {
+print("\(b)")
+}
 
 ## Question 2
 
